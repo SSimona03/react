@@ -1,0 +1,44 @@
+
+.cards{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.card{
+    max-width: 300px;
+    position: relative;
+}
+
+
+.description{
+    height: 60px;
+    font-size: 12px;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+.card{
+    margin: 10px;
+ }
+
+ .card > img{
+    border-radius: 10px;
+    width: 200px;
+    height: 280px;
+   
+ }
+
+ .soldOut{
+    margin: 7px;
+    position: absolute;
+    padding: 2px;
+    background-color: white;
+    font-size: 13px;
+    letter-spacing: .1rem;
+    font-weight: 700;
+    
+}

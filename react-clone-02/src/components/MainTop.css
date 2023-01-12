@@ -1,0 +1,17 @@
+.main-top{
+    padding: var(--section);
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+}
+
+.main-top > img{
+    max-width: 390px;
+    margin: 10px auto;
+    /* align-self: center; */
+}
+
+.online-exp > h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
