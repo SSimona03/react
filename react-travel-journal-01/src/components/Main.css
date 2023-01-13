@@ -1,0 +1,92 @@
+:root{
+    --font-size-mobile: 1rem;
+    --font-size-h1-mobile: 30px;
+    --color-location-tag: #2B283A;
+
+
+}
+
+
+.entry{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    margin: 1rem;
+    font-size: var(--font-size-mobile);
+}
+
+.mainImage{
+    width: 300px;
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-top: 40px;
+    /* display: none; */
+}
+
+.card:last-child {
+    padding-bottom: 20px;
+}
+
+.details{
+    width: 190px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.details > h1 {
+    font-weight: 700;
+    font-size: var(--font-size-h1-mobile);
+    margin: 5px 0 15px 0;
+}
+
+.location-tag{
+    padding: 0 15px 0 5px;
+    text-transform: uppercase;
+    color: var(--color-location-tag);
+    letter-spacing: 1.5px;
+}
+
+.dates{
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.details > a {
+    color: gray;
+}
+
+
+
+@media screen and (min-width: 650px) {
+    
+    .entry{
+        flex-direction: row;
+        margin: 1.5rem;     
+    }
+    
+    .mainImage{
+        height: 250px;
+        width: 60%;
+        /* display: block; */
+    }
+    
+    .details{
+        margin-left: 20px;
+    }
+
+  }
+  
+
+@media screen and (min-width: 850px) {
+    
+    .entry{
+        width: 830px;   
+    }
+ 
+
+  }

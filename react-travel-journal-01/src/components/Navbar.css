@@ -1,0 +1,14 @@
+nav{
+    height: 55px;
+    background-color: var(--nav-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+nav > img {
+    padding: 10px;
+    
+}
