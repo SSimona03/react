@@ -1,0 +1,25 @@
+.nav-container{
+    height: 75px;
+    background: var(--main-color-grd);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.nav-container > img{
+    width: 45px;
+    margin: 0 10px 0 20px ;
+}
+
+.nav-container > h1{
+    font-size: 1.8rem;
+    font-weight: 700;
+    
+}
+
+.nav-container > h3{
+    font-family: var(--font-project-name);
+    font-weight: 400;
+    margin:  0 20px  0 auto;
+    font-size: 0.92rem;
+}

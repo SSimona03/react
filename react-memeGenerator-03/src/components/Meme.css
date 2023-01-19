@@ -1,0 +1,50 @@
+main{
+    padding: 40px;
+}
+
+.form{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 20px;
+   
+}
+
+.form--button{
+    grid-column: 1 / -1;
+    font-family: var(--font-text);
+    background: var(--main-color-grd);
+    color:white;
+    font-weight: 500;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.form--button:active{
+    background: linear-gradient(90deg, #863464 1.18%, #821477 100%);
+}
+
+.form > input{
+    font-family: var(--font-text);
+    text-indent: 10px;
+    border-radius: 7px;
+    border: solid 1px rgb(135, 80, 110);
+    font-size: 1rem;
+}
+
+.form > input:hover, .form > input:focus{
+    cursor: pointer;
+    border: solid 1.5px rgb(97, 17, 60);
+    outline: none;
+}
+
+.meme{
+    width: 600px;
+    height: 600px;
+    object-position: center; 
+    object-fit: scale-down; 
+    margin: 40px auto;
+    display: block;
+    border: solid 1px;
+}
