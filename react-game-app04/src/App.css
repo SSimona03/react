@@ -1,0 +1,47 @@
+body{
+  background-color: var(--main-color);
+  padding: 30px;  
+  display: flex;
+  justify-content: center;
+}
+
+main{
+  min-width: 393px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--background-color) ;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+
+button{
+  padding: 0.8rem 2.2rem;
+  border: none ;
+  border-radius: 5px;
+  background-color: var(--button-color);
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-family: var(--font);
+}
+
+button:hover{
+cursor: pointer;
+}
+button:active{
+  box-shadow: inset 3px 3px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px 20px;
+  padding: 0 20px;
+  margin: 5rem 1rem;
+}
+

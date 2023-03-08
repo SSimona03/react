@@ -1,0 +1,17 @@
+:root{
+ --main-color: #0B2434;
+ --background-color: #F5F5F5;
+ --font: 'Karla', sans-serif;
+ --button-color: #5035FF;
+ --hold-color: #59E391;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  
+}
+
