@@ -3,12 +3,14 @@ import "./Die.css"
 
 
 export default (props) => {
-    const styles={
-        backgroundColor: props.isHeld ? "#59E391" : "white"
+    const styles = { 
+        backgroundColor: props.isHeld ? "#59E391" : "white" 
+
     }
+       
     return(
-        <div onClick={props.holdD} className="die" style={styles}>
-            <p > {props.number} </p>
+        <div  className="die" style={styles} onClick={props.holdDice}>
+            <p > {props.value} </p>
         </div>
     )
 }

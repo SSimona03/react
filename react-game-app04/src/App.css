@@ -7,7 +7,7 @@ body{
 
 main{
   min-width: 393px;
-  height: 400px;
+  height: 430px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -17,6 +17,11 @@ main{
   overflow: hidden;
 }
 
+.info{
+  font-family: var(--font);
+  margin: 5px 40px;
+  text-align: center;
+}
 
 button{
   padding: 0.8rem 2.2rem;
@@ -42,6 +47,6 @@ button:active{
   grid-template-columns: repeat(5, 1fr);
   gap: 15px 20px;
   padding: 0 20px;
-  margin: 5rem 1rem;
+  margin: 1.5rem 1rem 3rem 1rem;
 }
 
