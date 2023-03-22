@@ -6,4 +6,6 @@ npm install
 npm run dev
 
 
+Images in the individual projects! 
+
 
